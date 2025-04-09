@@ -18,8 +18,8 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/actapia/multiset_key_dict"
-"Bug Tracker" = "https://github.com/actapia/multiset_key_dict"
+"Homepage" = "https://github.com/actapia/multiset-key-dict"
+"Bug Tracker" = "https://github.com/actapia/multiset-key-dict"
 
 [tool.setuptools.packages.find]
 where = ["src"]
