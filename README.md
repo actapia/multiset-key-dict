@@ -9,6 +9,7 @@ indexes used.
 Create a `MultisetKeyDict` and insert an element for the set {1, 3, 5}.
 
 ```python
+from multiset_key_dict import MultisetKeyDict
 mskd = MultisetKeyDict()
 mskd[[1, 3, 5]] = 19
 ```
