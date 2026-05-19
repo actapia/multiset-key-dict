@@ -38,7 +38,7 @@ that act as the true keys in the structure, use `multiset_iter` or `items`
 methods instead.
 
 ```python
-msked[[1, 1]] = 90
+mskd[[1, 1]] = 90
 print(list(mskd))
 # [(frozenset({1, 3, 5}), 19), (frozenset({1}), 9), (frozenset({5, 6}), 12),
 # (frozenset({1}), 90)]
