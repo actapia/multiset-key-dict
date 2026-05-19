@@ -130,7 +130,11 @@ class MultisetKeyDict[KT, VT]:
 
     def key_elements(self) -> frozenset[KT]:
         """Returns all distinct elements of keys."""
-        return frozenset.union(*self.set_keys())
+        sk = tuple(self.set_keys())
+        if sk:
+            return frozenset.union(*sk)
+        else:
+            return frozenset()
 
     def __getattr__(self, attr):
         return getattr(self._dict, attr)
