@@ -4,11 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "multiset-key-dict"
-version = "0.2.2"
+version = "0.2.3"
 authors = [
     { name = "Andrew Tapia", email = "andrew.tapia@uky.edu" }
 ]
-description =  "A simple library for executing BLAST searches with ncbi-blast+"
+description =  "Mapping-like objects with unordered multisets as keys."
 readme = "README.md"
 requires-python = ">=3.12"
 classifiers = [
